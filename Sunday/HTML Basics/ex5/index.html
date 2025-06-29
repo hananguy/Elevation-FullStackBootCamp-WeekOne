@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+  <h1>Contact Us</h1>
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label>Name: <input type="text" placeholder="Your name"></label><br><br>
+    <label>Email: <input type="email" placeholder="your@gmail.com"></label><br><br>
+    <label>Phone: <input type="tel" placeholder="(555) 123-4567"></label>
+  </fieldset>
+  <fieldset>
+    <legend>Message Details</legend>
+    <label>Subject: 
+        <select>
+            <option value="">Select subject</option>
+            <option value="">General Inquiry</option>
+            <option value="">Support Request</option>
+            <option value="">Feedback</option>
+        </select>
+        <p>Priority:</p>
+        <input type="radio"> Low
+        <input type="radio"> Medium
+        <input type="radio"> High
+    </label>
+    <br>
+    <label>Message:<br>
+    <textarea placeholder="Your message..."></textarea>
+    </label>
+  </fieldset>
+  <fieldset>
+    <legend>Preferences</legend>
+    <input type="checkbox"> Subscribe to newsletter</input><br>
+    <label>Contact Method:
+        <select>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>    
+        </select>
+    </label>
+  </fieldset><br>
+  <button>Send Message</button>
+  <button>Reset</button>
+</body>
+
+</html>
