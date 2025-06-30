@@ -1,0 +1,17 @@
+.games_scores
+{
+  width: 100;
+  border-collapse:collapse;
+}
+.table_header
+{
+    background-color:lightgray;
+}
+.table_row
+{
+    background-color: lightgreen;
+}
+.games_scores
+{
+    border: 2px solid black;
+}

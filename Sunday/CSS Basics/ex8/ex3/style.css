@@ -1,0 +1,59 @@
+div.main
+{
+    background-color:darkslateblue;
+}
+.center-title
+{
+    text-align: center;
+    color: rgb(248, 164, 7);
+}
+.middle-titles
+{
+    color: #813000;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.section-line
+{
+  border: none;  
+  height: 3px;               
+  background-color: #813000; 
+  width: 100%;       
+  margin:0;       
+}
+.projects-titels
+{
+    color: #417fca;
+    font-family: Arial,sans-serif;
+    margin-left: 20px;
+}
+.images
+{
+    margin-left: 20px;
+    width: 400px; 
+    height: auto;
+}
+div.main img:nth-of-type(2)
+{
+    height: 300px;
+}
+.yellow-text
+{
+    color: yellow;
+    margin-left:20px;
+}
+.white-text {
+    color: white;
+}
+.green-link {
+     color: #00c9a7;
+    margin-left: 20px;
+    margin-top: 0px;;
+    display: inline-block;
+    font-size: 20px;
+}
+.green-text
+{
+    color: #00c9a7;
+    margin-left: 20px;
+}

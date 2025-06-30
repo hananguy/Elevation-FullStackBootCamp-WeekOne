@@ -1,0 +1,35 @@
+h1
+{
+    text-decoration: underline;
+    text-align: center;
+}
+.section-title
+{
+    color:#2196F3;
+}
+.section-line
+{
+  border: none;  
+  height: 3px;               
+  background-color: #2196F3; 
+  width: 100%;              
+  margin: 0; 
+}
+.horizons
+{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+span.myname
+{
+    color: purple;
+}
+span.attribute
+{
+    color: green;
+}
+div.secondtitles
+{
+    color:lightblue;
+}

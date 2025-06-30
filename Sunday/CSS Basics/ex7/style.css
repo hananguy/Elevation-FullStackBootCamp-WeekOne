@@ -1,0 +1,25 @@
+
+div.flowers {
+    width: 1000px;
+    height: 800px;
+    background-image:url("Flowers.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:0;
+    }
+
+.transparent-title {
+    color: rgb(41, 33, 33);
+    font-size: 3em;
+    background: blackrgba(200,200,200,22);
+    margin: 0;
+    width: 60%;
+}
+
+.solid-title {
+    margin: 0;
+    color: black;
+    font-size: 3em;
+    background: purple;
+    width: 60%;
+}

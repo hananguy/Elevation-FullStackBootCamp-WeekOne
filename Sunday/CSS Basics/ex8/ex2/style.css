@@ -1,0 +1,28 @@
+div.main
+{
+    background-color: rgb(243, 241, 215);
+}
+.center-title
+{
+    text-align: center;
+    color:orange;
+}
+div.middle-titles
+{
+    background-color: rgb(228, 243, 249);
+    color: rgb(22, 22, 188);
+    margin-left: 20px;
+}
+.list-item
+{
+    color:black;
+}
+.details-of-list-item
+{
+    color:orange;
+}
+.paragraphs
+{
+    background-color: rgb(245, 255, 255);
+    margin-left: 20px;
+}
