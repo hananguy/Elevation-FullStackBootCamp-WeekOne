@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.container {
+    width:100vw;
+    margin: 80px auto;
+  padding: 40px 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/*Default for mobile*/
+   h1
+    {
+        font-size: 24px;
+    }
+    p
+    {
+        font-size:14px;
+    }
+@media (min-width:601px)
+{
+    h1
+    {
+        font-size: 36px;
+    }
+    p
+    {
+        font-size:16px;
+    }
+}
+@media (min-width:900px)
+{
+      h1
+    {
+        font-size:48px;
+    }
+    p
+    {
+        font-size:18px;
+    }
+}

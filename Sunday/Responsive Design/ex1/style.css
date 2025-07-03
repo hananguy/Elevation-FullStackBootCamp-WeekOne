@@ -1,0 +1,19 @@
+@media (max-width: 768px)
+{
+    .box
+    {
+        background-color: red;
+    }
+}
+@media (min-width: 769px)
+{
+    .box
+    {
+        width: 300px;
+        background-color: blue;
+    }
+}
+.box
+{
+    min-height: 50vh;
+}
