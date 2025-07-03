@@ -19,7 +19,7 @@
 .photo
 {
     flex: 1 0 calc(50%);
-    background-color: #7452ab;
+    background: linear-gradient(90deg, rgba(103, 122, 227, 1) 0%, rgba(110, 102, 199, 1) 50%, rgba(117, 78, 166, 1) 100%);
     display:flex;
     align-items: center;
     justify-content: center;
