@@ -8,7 +8,7 @@
 
         <div class="container">
 
-            <nav> 
+            <nav id="main-nav"> 
                 <ul>
                     <li class>
                         <h3 class="name">Guy Hanan</h3>
@@ -30,7 +30,7 @@
 
 
 
-
+            
             <div class="opening">
                 <div class="col1">
                     <h1>Full-Stack Developer</h1>
@@ -44,29 +44,122 @@
                 </div>
             </div>
 
-            <div class="about">
-                <div class="about-me">
-                    <h1>About Me</h1>
-                    <div>I’m a passionate full-stack developer with a keen eye for design and a love for creating seamless user experiences. With expertise in HTML, CSS, and JavaScript, I bring ideas to life through clean, efficient code. When I’m not coding, you can find me exploring new technologies, reading design blogs, or enjoying a good cup of coffee while sketching out new project ideas.</div>
-                </div>
-                <div class="skills">
 
+            <div class="about-container">
+                <div class="about">
+                    <div class="about-me">
+                        <h1>About Me</h1>
+                        <div class="about-me-paragrpath">I’m a passionate full-stack developer with a keen eye for design and a love for creating seamless user experiences. With expertise in HTML, CSS, and JavaScript, I bring ideas to life through clean, efficient code. When I’m not coding, you can find me exploring new technologies, reading design blogs, or enjoying a good cup of coffee while sketching out new project ideas.</div>
+                    </div>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <ul class="skills-list">
+                            <li class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                            </li>
+                            <li class="skill">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                            </li>
+                            <li class="skill">
+                            <span class="skill-name">NodeJS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                            </li>
+                            <li class="skill">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 65%;"></div>
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="project">
+            <div class="projects-container">
+                <h2>My Projects</h2>
+                <div class="projects">
+                    <div class="project">
 
+                        <div class="project1-photo">
+                        </div>
+
+                        <div class="project1-details">
+                            <h2>Golden Frame</h2>
+                            <div>Golden Frame is a collaborative mobile app built with React Native (Expo) that allows users to upload images, select a processing purpose, and receive a smart, personalized score based on visual and semantic factors.</div>
+                            <a href="https://github.com/iradamsalem/Golden_Frame" id="golden-frame-link" target="_blank">View Project</a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="project">
+                        <div class="project2-photo">
+                        </div>
+
+                        <div class="project2-details">
+                            <h2>BULLS and COWS (Windows Apllication)</h2>
+                            <div>A C# console-based “Bulls and Cows” game where the player guesses a hidden number and receives “bull” and “cow” hints until cracking the code.</div>
+                            <a href="https://github.com/hananguy/Bull-Pgia-Game-Windows-Application-" id="bullandcows-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project3-photo">
+                            
+                        </div>
+                        <div class="project3-details">
+                            <h2>Garage Management System </h2>
+                            <div>A C# garage management system built for an OOP course assignment. Includes support for various vehicle types, fuel/charge logic, and status tracking.</div>
+                            <a href="https://github.com/hananguy/GarageManagementSystem" id="garagesystem-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
 
-            <div class="getintouch">
+            <div class="getintouch-container">
+                <h2>Get In Touch</h2>
+                <div class="getintouch">
+                    <div class="form-container">
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label><br>
+                                <input type="text" id="name" name="name" placeholder="Your name…" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label><br>
+                                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label><br>
+                                <textarea id="message" name="message" placeholder="Your message…" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
 
+                    <div class="contact-information">
+                        
+                    </div>
+                </div>
             </div>
 
             <div class="rigths-bar">
 
             </div>
 
-        </div>
+   `     
+         </div>
         
 
     </body>
