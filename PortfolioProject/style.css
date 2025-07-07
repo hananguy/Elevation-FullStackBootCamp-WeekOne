@@ -1,0 +1,114 @@
+body
+{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  width: 100vw;
+}
+.container
+{
+    /* max-width: 1200px; */
+    margin: auto;
+}
+h1
+{
+    font-size: 2.5rem;
+}
+h2
+{
+    font-size: 2rem;
+}
+h3
+{
+    font-size: 1.5rem;
+}
+p
+{
+    font-size: 1rem;
+    line-height: 1.6px;
+}
+nav > ul
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+nav ul > li > h3.name
+{
+    color: rgb(36 99 235);
+    padding: 10px;
+    margin: 0px;
+}
+nav > ul > li:nth-child(2)
+{
+    margin-left: auto;
+}
+nav > ul > li > a {
+  color: rgb(100 116 139);
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+nav ul > li:first-child {
+  margin-left: 7rem;   
+}
+.opening
+{
+  width: 100%;
+  height:600px;
+  background: linear-gradient(to right, #f5f5f5 0%, #dddddd 100%);
+  display: flex;
+  flex-direction: column;
+}
+.opening > .col1 > button
+{
+    border: none;
+    color:white;
+    width: 150px;
+    padding:15px;
+    background-color: rgb(36 99 235);
+    border-radius: 0.5rem;
+}
+.opening > .col1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:1.5rem;
+    flex: 1 1 50%;
+    min-width: 0%;
+}
+.opening > .col2
+{
+    flex: 1 1 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.profile-frame {
+  width: 80%;          
+  max-width: 200px;     
+  aspect-ratio: 1 / 1; 
+  border-radius: 50%;   
+  overflow: hidden;     
+  background-color: #e0e6f2;
+}
+.col1 > h1
+{
+    margin-bottom: 0px;
+}
+
+.profile-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 40% 0%;
+}
+#intro
+{
+    width:55%;
+}
+/* .col1 > p
+{
+    width: 100%;
+} */
